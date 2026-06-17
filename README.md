@@ -6,9 +6,10 @@ Low-light image enhancement is an important computer vision task that aims to im
 
 This project presents a comparative study of multiple deep learning-based low-light image enhancement techniques, including RetinexNet, RSEND, Pix2Pix, CycleGAN, and D2BGAN. The models were evaluated using objective image quality metrics such as PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index Measure).
 
-The final implementation focuses on a CycleGAN-based architecture for low-light image enhancement.
+The final implementation focuses on a CycleGAN-based architecture for low-light image enhancement. 
 
-**Note: All project resources, including source code, model outputs, visualizations, experimental results, and supporting materials, are contained within the LowLightImageEnhancement directory. Please refer to this folder for the complete project implementation and documentation.**
+Note: All project resources, including source code, model outputs, visualizations, experimental results, and supporting materials, are contained within the LowLightImageEnhancement directory. Please refer to this folder for the complete project implementation and documentation.
+
 ---
 
 ## Objectives
