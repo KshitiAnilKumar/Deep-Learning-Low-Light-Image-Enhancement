@@ -46,13 +46,32 @@ A GAN-based image enhancement approach designed to improve visual quality and br
 
 ## Dataset
 
-This project utilizes paired low-light and normal-light image datasets commonly used for low-light image enhancement research.
+This project uses a combined dataset created from two widely used low-light image enhancement benchmarks:
 
-The dataset contains:
+### 1. LOL (LOw-Light) Dataset
+- Source: https://www.kaggle.com/datasets/soumikrakshit/lol-dataset
+- Contains 500 paired low-light and normal-light images.
+- Split into 485 training pairs and 15 testing pairs.
+- Introduced with the RetinexNet framework for supervised low-light image enhancement research. :contentReference[oaicite:0]{index=0}
 
-* Low-light input images
-* Ground-truth enhanced images
-* Training and evaluation image pairs
+### 2. LOL-v2 Dataset
+- Source: https://www.kaggle.com/datasets/tanhyml/lol-v2-dataset
+- An extended benchmark containing more challenging real-world low-light scenes.
+- Includes LOL-v2 Real and LOL-v2 Synthetic subsets for robust evaluation. :contentReference[oaicite:1]{index=1}
+
+- The paired dataset (LOL + LOL-v2) consists of 2,290 pairs of images, including training (1603), 
+validation (343), and test (344).  
+-The unpaired dataset contains 6,000 dark and 2,290 bright unpaired images.  
+
+### Combined Dataset
+
+To improve model robustness and generalization, images from both LOL and LOL-v2 datasets were combined during experimentation and evaluation. The combined dataset provides:
+- Diverse indoor and outdoor scenes
+- Real-world low-light conditions
+- Higher variation in illumination levels
+- Improved benchmarking across multiple enhancement models
+
+The dataset was used to compare the performance of RetinexNet, RSEND, Pix2Pix, CycleGAN, and D2BGAN using PSNR and SSIM evaluation metrics.
 
 ---
 
