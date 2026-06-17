@@ -8,7 +8,7 @@ This project presents a comparative study of multiple deep learning-based low-li
 
 The final implementation focuses on a CycleGAN-based architecture for low-light image enhancement.
 
-Note: All project resources, including source code, model outputs, visualizations, experimental results, and supporting materials, are contained within the LowLightImageEnhancement directory. Please refer to this folder for the complete project implementation and documentation.
+**Note: All project resources, including source code, model outputs, visualizations, experimental results, and supporting materials, are contained within the LowLightImageEnhancement directory. Please refer to this folder for the complete project implementation and documentation.**
 ---
 
 ## Objectives
